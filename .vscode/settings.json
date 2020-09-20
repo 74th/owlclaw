@@ -1,9 +1,12 @@
 {
   "python.testing.unittestArgs": ["-v", "-s", "./tests", "-p", "*_test.py"],
-  "editor.formatOnSave": true,
-  "editor.formatOnSaveMode": "file",
   "python.formatting.provider": "black",
   "python.testing.pytestEnabled": false,
   "python.testing.nosetestsEnabled": false,
-  "python.testing.unittestEnabled": true
+  "python.testing.unittestEnabled": true,
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSaveMode": "file"
+  }
 }
